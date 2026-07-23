@@ -194,4 +194,3 @@ All project code and design work © Anthony W Smith. All rights reserved.
 
 **Last Updated:** 2026  
 **Developer:** Anthony W Smith - Frontend Developer
-
