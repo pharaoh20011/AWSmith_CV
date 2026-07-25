@@ -11681,6 +11681,19 @@ html {
   font-weight: 700;
   letter-spacing: 0.02em;
 }
+.portfolio .portfolio-item .portfolio-hover-link {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 1.25;
+}
+.portfolio .portfolio-item .portfolio-hover-link + .portfolio-hover-link {
+  margin-top: 0.25rem;
+}
+.portfolio .portfolio-item .portfolio-hover-link:hover,
+.portfolio .portfolio-item .portfolio-hover-link:focus {
+  text-decoration: underline;
+}
 .portfolio .portfolio-item .portfolio-item-caption,
 .portfolio .portfolio-item .portfolio-item-caption:hover,
 .portfolio .portfolio-item .portfolio-item-caption:focus {
