@@ -89,7 +89,7 @@ A website for a faith-based organization/church community.
 
 ---
 
-### 4. **TAF** - Project Site
+### 4. **Tell-A-Friend** - Project Site
 
 A showcase website project.
 
