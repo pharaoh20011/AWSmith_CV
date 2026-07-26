@@ -33,10 +33,12 @@ All pages use canonical URLs pointing to the production domain:
 
 ### Open Graph & Twitter Cards
 
-Each page includes Open Graph (`og:`) and Twitter Card meta tags for social sharing previews. The shared preview image is:
+Each page includes Open Graph (`og:`) and Twitter Card meta tags for social sharing previews. The shared preview image is a custom 1200x630px Open Graph image:
 
-- **Image:** `img/access21_logo.png`
-- **Full URL:** `https://smithaw.com/access21/img/access21_logo.png`
+- **Image:** `img/og_image_1200x630.png`
+- **Full URL:** `https://smithaw.com/access21/img/og_image_1200x630.png`
+- **Dimensions:** 1200 × 630 pixels (recommended aspect ratio for social sharing)
+- **Design:** Blue background with Access21 logo and "Access21 Bulk Email" branding text
 
 ### Sitemap
 

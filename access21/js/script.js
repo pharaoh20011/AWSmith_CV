@@ -4,15 +4,31 @@ document.addEventListener('DOMContentLoaded', () => {
   const contactForm = document.getElementById('contactForm');
   const menuToggle = document.getElementById('menuToggle');
   const hamburgerMenu = document.getElementById('hamburgerMenu');
+  const menuLabel = document.querySelector('.menu-label');
 
   if (menuToggle && hamburgerMenu) {
+    // Toggle menu on hamburger button click
     menuToggle.addEventListener('click', (e) => {
-      e.stopPropagation(); 
+      e.stopPropagation();
       hamburgerMenu.classList.toggle('active');
     });
 
-    window.addEventListener('click', () => {
-      if (hamburgerMenu.classList.contains('active')) {
+    // Toggle menu when "Menu" label is clicked
+    if (menuLabel) {
+      menuLabel.addEventListener('click', (e) => {
+        e.stopPropagation();
+        hamburgerMenu.classList.toggle('active');
+      });
+    }
+
+    // Close menu when clicking outside
+    window.addEventListener('click', (e) => {
+      if (hamburgerMenu.classList.contains('active') &&
+          !hamburgerMenu.contains(e.target) &&
+          e.target !== menuToggle &&
+          e.target !== menuLabel &&
+          !menuToggle.contains(e.target) &&
+          !menuLabel.contains(e.target)) {
         hamburgerMenu.classList.remove('active');
       }
     });
@@ -47,14 +63,6 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = mailtoLink;
         contactForm.reset();
       }
-    });
-  }
-
-  // --- Hamburger Menu Text Logic ---
-  const menuLabel = document.querySelector('.menu-label');
-  if (menuLabel && menuToggle) {
-    menuLabel.addEventListener('click', function () {
-      menuToggle.click();
     });
   }
 });
