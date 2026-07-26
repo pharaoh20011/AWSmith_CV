@@ -16,7 +16,7 @@ A multi-page church website for **Jubilee Junction Christian Fellowship** locate
 | **Home**                  | `index.html`    | Welcome message, church mission (Seek, Save, Shelter, Serve), photo gallery, December 2025 calendar                                                     |
 | **Pastor**                | `pastor.html`   | Biography of Pastor James M. Kelly, his ministry background and vision                                                                                  |
 | **Faith / Mission**       | `faith.html`    | Statement of faith, mission statement, ministries overview (Intercessory Prayer, Project Harvest, Children's, Men's & Women's, Music, Liturgical Dance) |
-| **Services / Directions** | `Services.html` | Service times, address, mailing address, phone, Google Maps embed, what to expect                                                                       |
+| **Services / Directions** | `services.html` | Service times, address, mailing address, phone, Google Maps embed, what to expect                                                                       |
 
 ---
 
@@ -58,12 +58,12 @@ A multi-page church website for **Jubilee Junction Christian Fellowship** locate
 
 ## File Structure
 
-```
+```text
 jubilee/
 ├── index.html              # Home page
 ├── pastor.html             # Pastor biography page
 ├── faith.html              # Faith, mission, and ministries page
-├── Services.html           # Service times and directions page
+├── services.html           # Service times and directions page
 ├── sitemap.xml             # XML sitemap for search engines
 ├── robots.txt              # Robots exclusion file
 ├── README.md               # This file
