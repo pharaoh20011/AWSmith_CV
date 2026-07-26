@@ -16,7 +16,9 @@
       content="Anthony W Smith, frontend developer, web developer portfolio, responsive web design, HTML CSS JavaScript, Bootstrap, WordPress"
     />
     <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://smithaw.com/" />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://smithaw.com/" />
     <meta
       property="og:title"
       content="Anthony W Smith | Frontend Developer Portfolio"
@@ -25,9 +27,18 @@
       property="og:description"
       content="Explore frontend development projects, branded website work, and resume details for Anthony W Smith."
     />
-    <meta property="og:image" content="assets/img/me_san_pedro2_350x525.png" />
+    <meta
+      property="og:image"
+      content="https://smithaw.com/assets/img/me_san_pedro2_350x525.png"
+    />
+    <meta
+      property="og:image:alt"
+      content="Portrait of Anthony W Smith, frontend developer"
+    />
     <meta property="og:site_name" content="AW Smith Portfolio" />
+    <meta property="og:locale" content="en_US" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://smithaw.com/" />
     <meta
       name="twitter:title"
       content="Anthony W Smith | Frontend Developer Portfolio"
@@ -36,7 +47,24 @@
       name="twitter:description"
       content="Frontend projects, website branding work, and resume of Anthony W Smith."
     />
-    <meta name="twitter:image" content="assets/img/me_san_pedro2_350x525.png" />
+    <meta
+      name="twitter:image"
+      content="https://smithaw.com/assets/img/me_san_pedro2_350x525.png"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Portrait of Anthony W Smith, frontend developer"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Anthony W Smith",
+        "url": "https://smithaw.com/",
+        "jobTitle": "Frontend Developer",
+        "sameAs": ["https://github.com/pharaoh20011"]
+      }
+    </script>
     <title>Anthony W Smith | Frontend Developer Portfolio</title>
     <!-- Favicon-->
     <link
@@ -98,6 +126,9 @@
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body id="page-top">
+    <a class="visually-hidden-focusable p-2 bg-light" href="#about"
+      >Skip to main content</a
+    >
     <!-- Navigation-->
     <nav
       class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
